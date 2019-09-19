@@ -17,6 +17,7 @@ steps:
 - script: |
     gem install bundler
     gem install jekyll
+    gem install jekyll-theme-so-simple
     bundle install --retry=3 --jobs=4
   displayName: 'bundle install'
 
