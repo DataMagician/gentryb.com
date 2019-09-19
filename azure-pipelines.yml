@@ -26,7 +26,6 @@ steps:
 
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: '_site/'
     includeRootFolder: false
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
